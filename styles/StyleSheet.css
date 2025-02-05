@@ -1,0 +1,117 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    padding: 20px;
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 600px; /* Increased max-width for better layout */
+    margin: 50px auto;
+    box-sizing: border-box; /* Ensure background covers contents */
+}
+
+h2 {
+    text-align: center;
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #fff;
+}
+
+input[type="text"],
+input[type="password"],
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #333;
+    color: #fff;
+}
+
+button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 100%;
+}
+
+    button:hover,
+    input[type="button"]:hover,
+    input[type="submit"]:hover,
+    input[type="reset"]:hover {
+        background-color: #45a049;
+    }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 30px;
+}
+
+.form-container {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.table-container {
+    flex: 1;
+    margin-top: 65px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #1e1e1e;
+    margin-top: 20px;
+    color: #fff;
+}
+
+    table th,
+    table td {
+        padding: 8px;
+        text-align: left;
+        border: 1px solid #333;
+    }
+
+    table tr.active {
+        background: #007bff;
+        color: #fff;
+    }
+
+.error {
+    color: red;
+}
+
+/* Adjust form button size */
+.form-container button {
+    padding: 8px 16px;
+}
+
+/* Adjust spacing between Update and Delete buttons */
+.table-container .btn {
+    margin-top: 10px;
+}
